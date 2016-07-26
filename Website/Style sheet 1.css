@@ -1,0 +1,91 @@
+html 
+{
+    background-color: blanchedalmond;
+  
+    -webkit-font-smoothing: antialiased;
+    background-image: url("http://cdn.paper4pc.com/images/island-beach-wallpaper-1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0 auto;
+    border: 5px inset blanchedalmond;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.2em;
+    color: blanchedalmond;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+
+h2{
+    font-family: Palatino, 'Palatino Linotype', serif;
+	font-size: 60px;
+    letter-spacing: 2px;
+    color:blanchedalmond;
+    line-height: 1em;
+    text-align: center;
+    margin-top: 100px;
+}
+h3,p {
+    font-family: Palatino, 'Palatino Linotype', serif;
+    color: blanchedalmond;
+    font-weight: 600;
+    line-height: 1.3em;
+    text-align: center;
+  
+}
+
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: cornflowerblue;
+  text-shadow: none;
+  background-color: blanchedalmond;
+}
+
+.btn.btn-primary:hover {
+  color: blanchedalmond;
+  background-color: cornflowerblue;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: cornflowerblue;
+  margin-bottom: 20px;
+}
+
+footer
+{
+  color:cornflowerblue;
+  font-family: "Times New Roman", Times, serif;  
+  font-size: 12px;
+  text-align: center;
+padding: 50px 0;
+ 
+}
+
+
+
+@-webkit-keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+    }
+}
+
+@keyframes colorize {
+    0% {
+        filter: grayscale(100%);
+    }
+    100% {
+        filter: grayscale(0%);
+    }
+}
